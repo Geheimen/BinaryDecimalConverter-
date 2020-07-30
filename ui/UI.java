@@ -106,7 +106,7 @@ public class UI {
 					String dec = Converter.convertNumber(Double.parseDouble(input.getText()), 10);
 					output.setText(String.valueOf(dec));
 				} else {
-					JOptionPane.showConfirmDialog(frame, null, "Please select which base to convert to", JOptionPane.DEFAULT_OPTION, JOptionPane.ERROR_MESSAGE);
+					JOptionPane.showConfirmDialog(frame, "Please select which base to convert to", "Error", JOptionPane.DEFAULT_OPTION, JOptionPane.ERROR_MESSAGE);
 				}
 			}
 		});
